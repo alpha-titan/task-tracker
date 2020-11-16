@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.app__header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(4, 104, 4);
+}
+
+.app_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+}
+.app__logo__name{
+    color: rgb(62, 8, 70);
+    text-align: center;
+    align-items: center;
+    /* padding: 10px; */
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+@keyframes app__header{ 
+    from {background: red;}
+  to {background: yellow;}
+}

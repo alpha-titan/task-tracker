@@ -1,0 +1,32 @@
+.task_details{
+    display: flex;
+    justify-content: space-between;
+    margin:10px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    background: rgb(68, 202, 68);
+}
+
+.task_details:hover{
+    transform: scale(1.02);
+}
+
+.button{
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border:none;
+    padding: 6px;
+    background: rgb(12, 177, 12);
+    cursor: pointer;
+}
+
+.button::after{
+    width: 0;
+    height: 100%;
+    background: rgb(231, 134, 134);
+}
+
+.button::after:hover{
+width: 100%;
+}

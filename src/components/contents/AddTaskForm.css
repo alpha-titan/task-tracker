@@ -1,0 +1,17 @@
+.formcontainer{
+    /* display: flex;
+    justify-content: center; */
+    /* background: rgb(97, 148, 97); */
+}
+
+.form_content{
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    background: rgb(19, 240, 19);
+    width: 600px;
+}
+
+.form_ins{
+    margin: 0 auto;
+}

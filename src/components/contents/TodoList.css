@@ -1,0 +1,11 @@
+.container{
+    margin:10px auto;
+    border-radius: 10px;
+    padding: 20px;;
+    width:600px;
+    background: rgb(19, 240, 19);
+}
+.empty{
+    margin:0 auto;
+    color:red
+}
